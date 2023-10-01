@@ -1,0 +1,573 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202308 will be lost/reset.
+# Last config file used to build this data file was /virtual/www/public_html/log/awstats/cgi-bin/awstats.www.s239.xrea.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2102                
+POS_TIME 2787                
+POS_VISITOR 8667                
+POS_DAY 20114               
+POS_DOMAIN 3642                
+POS_LOGIN 4026                
+POS_ROBOT 4181                
+POS_WORMS 4771                
+POS_EMAILSENDER 4902                
+POS_EMAILRECEIVER 5045                
+POS_SESSION 20833               
+POS_SIDER 21030               
+POS_FILETYPES 5180                
+POS_DOWNLOADS 5365                
+POS_OS 5413                
+POS_BROWSER 5620                
+POS_SCREENSIZE 6751                
+POS_UNKNOWNREFERER 6825                
+POS_UNKNOWNREFERERBROWSER 7143                
+POS_ORIGIN 7293                
+POS_SEREFERRALS 7433                
+POS_PAGEREFS 7605                
+POS_SEARCHWORDS 7817                
+POS_KEYWORDS 7969                
+POS_MISC 2451                
+POS_ERRORS 8028                
+POS_CLUSTER 3882                
+POS_SIDER_403 8151                
+POS_SIDER_404 8358                
+POS_SIDER_400 8276                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230901000038 2064 262937 6851453559782
+FirstTime 20230801014252
+LastTime 20230831210000
+LastUpdate 20230901071431 2064 0 2063 0 0
+TotalVisits 198                 
+TotalUnique 186                 
+MonthHostsKnown 146                 
+MonthHostsUnknown 40                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+AddToFavourites 0 3 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 16 44 192873 2293 2309 370448
+1 15 18 34744 2207 2214 3611276
+2 13 27 409398 2223 2245 323216
+3 4 4 2420 2141 2162 336489
+4 3 3 1539 2037 2037 262847
+5 6 6 3630 2079 2107 293020
+6 9 9 5721 2130 2199 291807
+7 6 6 3814 2158 2205 341823
+8 14 14 11666 2220 2273 334724
+9 10 10 6602 2194 2264 315990
+10 17 17 122761 2273 2327 346608
+11 2 2 1026 2389 2389 361241
+12 10 10 6050 2147 2189 340688
+13 4 4 7438 2449 2485 362694
+14 6 6 3117 2434 2456 353942
+15 6 6 3078 2417 2419 356300
+16 25 27 45076 2408 2425 340714
+17 32 32 41621 2688 2703 428386
+18 31 33 32531 2204 2243 323237
+19 60 60 40257 2327 2370 356362
+20 27 27 15744 2318 2330 332683
+21 9 9 5169 2327 2360 389923
+22 9 9 5169 2380 2404 369005
+23 18 33 403632 2389 2411 367158
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+com 136 136 74591
+jp 130 192 1265431
+ip 57 59 48298
+net 11 11 6747
+cn 5 5 2565
+uy 2 2 1394
+vn 2 2 1394
+de 2 2 1026
+ru 2 2 513
+nl 2 2 1026
+ph 1 1 697
+org 1 1 697
+eu 1 1 697
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+Wget/ 51247 7591546 20230831235916 0
+no_user_agent 2975 3511448 20230831235840 0
+custo 20 13940 20230829225803 0
+Googlebot/ 14 34649 20230831221101 0
+bot[\s_+:,\.\;\/\\-] 9 29640 20230828113354 0
+python 6 3078 20230831012801 0
+bingbot/ 6 23113 20230829052711 0
+Applebot/ 5 12601 20230830190626 0
+smtbot 2 1026 20230824090300 0
+spider 2 513 20230803055748 0
+^Mozilla$ 1 697 20230824183039 0
+SemrushBot/ 1 5531 20230807193357 0
+scanner 1 513 20230824235408 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+php 350 483874 0 0
+png 22 43256 0 0
+css 12 116964 0 0
+woff2 4 253112 0 0
+js 24 494351 0 0
+cgi 2 11743 0 0
+svg 2 1776 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+win7 11 11
+linux 81 81
+ios_iphone 5 5
+Unknown 9 9
+win10 279 216
+macosx 17 16
+winxp 4 4
+win8.1 3 3
+macosx10 1 1
+linuxandroid 5 5
+macosx11 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 53
+firefox58.0 1 1
+safari13.0.3 2 2
+chrome111.0.0.0 4 4
+chrome114.0.0.0 6 5
+chrome66.0.3359.158 1 1
+chrome39.0.2171.95 1 1
+chrome80.0.3987.149 2 2
+msie8.0 1 1
+firefox116.0 26 11
+chrome95.0.4638.54 1 1
+chrome91.0.2443 1 1
+chrome103.0.5060.114 1 1
+Unknown 7 7
+chrome34.0.1866.237 1 1
+chrome51.0.2704.103 1 1
+safari10.0 1 1
+chrome50.0.2661.102 2 2
+mozilla 2 2
+firefox115.0 1 1
+msie11.0 1 1
+firefox108.0 1 1
+chrome94.0.4606.81 2 2
+msie7.0 2 2
+chrome74.0.3729.169 7 7
+chrome66.0.3359.181 19 19
+chrome88.0.4240.193 10 10
+safari14.0 1 1
+chrome90.0.4430.212 1 1
+chrome78.0.3904.108 27 27
+firefox49.0 1 1
+chrome113.0.0.0 1 1
+netscape5.0 1 1
+safari16.5.2 1 1
+safari14.0.3 1 1
+chrome89.0.4389.82 1 1
+chrome104.0.5112.79 1 1
+chrome115.0.0.0 104 58
+chrome89.0.4389.114 8 8
+chrome92.0.1485 1 1
+chrome84.0.4147.105 1 1
+chrome116.0.0.0 71 69
+chrome83.0.4103.97 73 73
+chrome102.0.0.0 1 1
+chrome79.0.3945.130 1 1
+chrome60.0.3112.107 3 3
+chrome100.0.4896.127 2 2
+firefox63.0 1 1
+chrome79.0 2 2
+chrome76.0.3809.132 1 1
+chrome110.0.5481.100 1 1
+safari15.5 1 1
+chrome103.0.5060.71 1 1
+chrome108.0.0.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230825145824
+Go-http-client/1.1 20230821130921
+Mozilla/5.0_researchscan.comsys.rwth-aachen.de 20230819071741
+cpp-httplib/0.10.9 20230801124358
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Go-http-client/1.1 20230821130921
+cpp-httplib/0.10.9 20230801124358
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 181 181
+From1 1 1
+From2 2 2
+From3 61 61
+From4 107 171
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com 1 1
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://hashioka.shop 58 58
+https://bakman.fresnounified.org 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+401 3 18937
+403 1 199
+404 1160 225596
+302 11 0
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 1
+/.well-known/acme-challenge/xmrlpc.php 1 -
+END_SIDER_403
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 0
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 186
+124-140-3-200.rev.home.ne.jp 54 56 77248 20230829005213
+fp5ccbe522.tkyc316.ap.nuro.jp 17 59 605129 20230818022832
+183-180-102-77.tokyo.fdn.vectant.ne.jp 15 15 27075 20230825085421
+i118-21-136-236.s30.a048.ap.plala.or.jp 10 11 11699 20230810191359
+zm160021.ppp.dion.ne.jp 9 24 398976 20230801234846
+154.77.30.125.dy.iij4u.or.jp 8 10 12562 20230801015252
+157-14-225-24.tokyo.fdn.vectant.ne.jp 8 8 115398 20230805103036
+198.13.44.100.vultrusercontent.com 8 8 5576 20230814101400
+sp49-109-4-74.smd01.spmode.ne.jp 5 5 4575 20230822105231
+178.128.86.141 4 4 2788 20230823102620
+p8458153-ipngn40401marunouchi.tokyo.ocn.ne.jp 2 2 1026 20230806230843
+ec2-35-90-172-59.us-west-2.compute.amazonaws.com 1 1 513 20230813202205
+ec2-54-214-113-108.us-west-2.compute.amazonaws.com 1 1 513 20230808194413
+ec2-35-92-114-102.us-west-2.compute.amazonaws.com 1 1 513 20230804015913
+185.241.208.228 1 1 697 20230823143038
+ec2-54-186-61-242.us-west-2.compute.amazonaws.com 1 1 513 20230813192625
+107.166.9.246 2 2 1026 20230804064443
+94.200.248.224 1 1 513 20230802221751
+r179-27-158-72.ir-static.adinet.com.uy 2 2 1394 20230814073312
+92.246.84.133 1 1 513 20230811031411
+40.77.24.126 1 1 513 20230816015718
+ec2-35-164-173-87.us-west-2.compute.amazonaws.com 1 1 513 20230825184843
+25.151.210.35.bc.googleusercontent.com 1 1 513 20230802190053
+40.78.130.236 1 1 697 20230819080643
+ec2-34-222-143-59.us-west-2.compute.amazonaws.com 1 1 513 20230830194936
+185-220-102-244.torservers.net 1 1 513 20230813042614
+ec2-52-41-138-62.us-west-2.compute.amazonaws.com 1 1 513 20230822191031
+26.tor-exit.nothingtohide.nl 1 1 513 20230818042638
+m106073005128.v4.enabler.ne.jp 1 1 6212 20230802163343
+167.99.214.232 2 2 1026 20230813121511
+ec2-34-220-100-85.us-west-2.compute.amazonaws.com 1 1 513 20230829190546
+ec2-35-92-249-162.us-west-2.compute.amazonaws.com 1 1 513 20230807190957
+93.158.90.70 1 1 513 20230809124734
+ec2-34-219-91-183.us-west-2.compute.amazonaws.com 1 1 513 20230814200454
+234.143.221.35.bc.googleusercontent.com 1 1 0 20230808145725
+ec2-18-212-8-126.compute-1.amazonaws.com 2 2 1394 20230829050827
+ec2-54-188-68-116.us-west-2.compute.amazonaws.com 1 1 513 20230814200508
+ec2-18-236-143-74.us-west-2.compute.amazonaws.com 1 1 513 20230808214214
+107-173-200-164-host.colocrossing.com 2 2 1026 20230824090256
+ec2-35-163-208-8.us-west-2.compute.amazonaws.com 1 1 513 20230817224554
+ec2-34-220-17-147.us-west-2.compute.amazonaws.com 1 1 513 20230818185050
+ec2-52-13-83-179.us-west-2.compute.amazonaws.com 1 1 513 20230827200301
+20.10.55.35 1 1 697 20230802012722
+1045343-cr54352.tmweb.ru 1 1 0 20230802023306
+ec2-34-214-7-0.us-west-2.compute.amazonaws.com 1 1 513 20230822191021
+84.82.146.217.baremetal.zare.com 3 3 2091 20230807084534
+ec2-35-163-191-193.us-west-2.compute.amazonaws.com 1 1 513 20230809195623
+ec2-34-221-104-120.us-west-2.compute.amazonaws.com 1 1 513 20230812185251
+117.160.250.132 1 1 697 20230813224057
+7.104.162.34.bc.googleusercontent.com 2 2 1026 20230816232413
+ec2-34-208-11-223.us-west-2.compute.amazonaws.com 1 1 513 20230818185231
+20.1.196.90 1 1 513 20230806022839
+ec2-35-89-159-210.us-west-2.compute.amazonaws.com 1 1 513 20230804191402
+ec2-34-222-151-155.us-west-2.compute.amazonaws.com 1 1 513 20230804015819
+ec2-54-149-123-107.us-west-2.compute.amazonaws.com 1 1 513 20230819190103
+178.128.102.58 2 2 1394 20230819095226
+ec2-18-237-129-76.us-west-2.compute.amazonaws.com 1 1 513 20230828191040
+ec2-35-91-41-67.us-west-2.compute.amazonaws.com 1 1 513 20230814212018
+ec2-54-212-32-155.us-west-2.compute.amazonaws.com 1 1 513 20230812185400
+209.38.242.91 2 2 1026 20230827225654
+ec2-34-216-242-92.us-west-2.compute.amazonaws.com 1 1 513 20230812185323
+39.tor-exit.nothingtohide.nl 1 1 513 20230802151436
+64.107.205.92.host.secureserver.net 4 4 2788 20230821231510
+ec2-18-236-131-149.us-west-2.compute.amazonaws.com 1 1 513 20230821191946
+ec2-34-223-224-180.us-west-2.compute.amazonaws.com 1 1 513 20230801191848
+ec2-35-88-150-132.us-west-2.compute.amazonaws.com 1 1 513 20230817024602
+unn-169-150-254-74.datapacket.com 2 2 1394 20230817213315
+ec2-54-148-223-48.us-west-2.compute.amazonaws.com 1 1 513 20230823192439
+93.158.90.46 1 1 513 20230830063120
+ec2-35-91-62-71.us-west-2.compute.amazonaws.com 1 1 513 20230810191147
+ec2-35-90-117-104.us-west-2.compute.amazonaws.com 1 1 513 20230804020126
+188.166.214.4 2 2 1394 20230821093914
+ec2-18-236-145-163.us-west-2.compute.amazonaws.com 2 2 1394 20230830030605
+ec2-52-26-73-137.us-west-2.compute.amazonaws.com 1 1 513 20230827200235
+egis.ph 1 1 697 20230813143419
+ec2-34-213-103-236.us-west-2.compute.amazonaws.com 1 1 513 20230810191218
+ec2-34-229-15-120.compute-1.amazonaws.com 2 2 1394 20230809122300
+1083091-cl24819.tmweb.ru 1 1 513 20230828172830
+ec2-54-213-2-78.us-west-2.compute.amazonaws.com 1 1 513 20230805200512
+ec2-34-219-12-243.us-west-2.compute.amazonaws.com 1 1 513 20230817194250
+ec2-35-89-117-173.us-west-2.compute.amazonaws.com 1 1 513 20230823192401
+ec2-34-220-74-106.us-west-2.compute.amazonaws.com 1 1 513 20230810202715
+192.36.24.172 1 1 513 20230802182834
+inet7.tosis.co.jp 1 1 5531 20230824130133
+ec2-35-90-72-32.us-west-2.compute.amazonaws.com 1 1 513 20230824190238
+ec2-35-88-86-66.us-west-2.compute.amazonaws.com 1 1 513 20230819055646
+206.1.70.34.bc.googleusercontent.com 3 3 2091 20230817085406
+ec2-52-24-49-72.us-west-2.compute.amazonaws.com 1 1 513 20230818185123
+133.106.130.168 1 2 8311 20230804184116
+167.4.89.125.broad.zh.gd.dynamic.163data.com.cn 2 2 1026 20230813123451
+vmi490679.contaboserver.net 1 1 513 20230830172944
+ec2-35-88-177-102.us-west-2.compute.amazonaws.com 1 1 513 20230830194849
+106.75.26.116 1 1 513 20230831210000
+a172-225-123-180.deploy.static.akamaitechnologies.com 1 1 513 20230810181038
+ec2-34-209-143-28.us-west-2.compute.amazonaws.com 1 1 513 20230820185057
+86.73.126.34.bc.googleusercontent.com 2 2 1394 20230819075722
+tor11.quintex.com 1 1 513 20230806200910
+ec2-52-88-127-169.us-west-2.compute.amazonaws.com 1 1 513 20230805214600
+ec2-52-41-56-169.us-west-2.compute.amazonaws.com 1 1 513 20230803205727
+ec2-54-212-91-62.us-west-2.compute.amazonaws.com 1 1 513 20230805200406
+ec2-34-209-26-235.us-west-2.compute.amazonaws.com 1 1 513 20230812185149
+61.164.242.190 1 1 697 20230829212351
+ec2-54-187-195-109.us-west-2.compute.amazonaws.com 1 1 513 20230818185151
+ec2-52-33-146-236.us-west-2.compute.amazonaws.com 1 1 513 20230821191920
+ec2-18-207-179-206.compute-1.amazonaws.com 1 1 513 20230808164715
+ec2-34-221-192-153.us-west-2.compute.amazonaws.com 1 1 513 20230809200034
+ec2-54-202-151-177.us-west-2.compute.amazonaws.com 1 1 513 20230825184802
+5.188.62.76 1 1 513 20230805181323
+5.188.62.174 1 1 513 20230829205234
+103.151.5.233 1 1 697 20230826064337
+ec2-35-88-112-223.us-west-2.compute.amazonaws.com 1 1 513 20230802193812
+researchscan36.comsys.rwth-aachen.de 1 1 513 20230819071741
+ec2-54-218-147-197.us-west-2.compute.amazonaws.com 1 1 513 20230808194329
+no-reverse-dns-configured.com 1 1 513 20230818115500
+ec2-54-71-12-156.us-west-2.compute.amazonaws.com 1 1 513 20230819022412
+107.166.15.195 2 2 1026 20230811163124
+ec2-52-13-47-251.us-west-2.compute.amazonaws.com 1 1 513 20230801191906
+ec2-52-34-21-213.us-west-2.compute.amazonaws.com 1 1 513 20230807202354
+miraculous.monitoring.internet-measurement.com 1 1 513 20230825145824
+ec2-52-26-163-227.us-west-2.compute.amazonaws.com 1 1 513 20230829190500
+tor-exit-6.zbau.f3netze.de 1 1 513 20230829005619
+128.199.178.187 2 2 1394 20230823062826
+42.83.147.54 3 3 1539 20230825035527
+ec2-35-91-66-97.us-west-2.compute.amazonaws.com 1 1 513 20230803153024
+ec2-52-34-206-209.us-west-2.compute.amazonaws.com 1 1 513 20230803153054
+8.193.187.35.bc.googleusercontent.com 2 2 1394 20230822094319
+113.142.131.55 1 1 513 20230803170554
+ec2-54-71-92-191.us-west-2.compute.amazonaws.com 1 1 513 20230801202551
+ec2-54-218-99-95.us-west-2.compute.amazonaws.com 1 1 513 20230809221531
+ec2-54-212-228-182.us-west-2.compute.amazonaws.com 1 1 513 20230822002657
+ns3149201.ip-54-36-173.eu 1 1 697 20230801124358
+ec2-54-213-74-48.us-west-2.compute.amazonaws.com 1 1 513 20230828191013
+formulario10.qualividabeneficios.com 2 2 1394 20230814091947
+ec2-35-90-54-193.us-west-2.compute.amazonaws.com 1 1 513 20230814200422
+ec2-34-216-82-126.us-west-2.compute.amazonaws.com 1 1 513 20230813192606
+42.83.147.55 3 3 1539 20230828205449
+ec2-18-236-106-63.us-west-2.compute.amazonaws.com 1 1 513 20230820185024
+ec2-18-236-150-211.us-west-2.compute.amazonaws.com 1 1 513 20230815194204
+71.7.89.125.broad.zh.gd.dynamic.163data.com.cn 2 2 1026 20230826025321
+216.251.130.74 1 1 513 20230819204136
+ec2-34-222-79-179.us-west-2.compute.amazonaws.com 1 1 513 20230824190307
+ec2-54-202-49-114.us-west-2.compute.amazonaws.com 1 1 513 20230804203621
+52.140.217.116 1 1 0 20230830234152
+219.113.86.4 1 2 8421 20230801014253
+ec2-34-211-33-239.us-west-2.compute.amazonaws.com 1 1 697 20230828140657
+ec2-35-91-183-15.us-west-2.compute.amazonaws.com 1 1 513 20230817194317
+ec2-34-211-199-30.us-west-2.compute.amazonaws.com 1 1 513 20230816195119
+ec2-52-34-14-197.us-west-2.compute.amazonaws.com 1 1 513 20230815210432
+ec2-34-219-161-71.us-west-2.compute.amazonaws.com 1 1 513 20230826192210
+ec2-18-236-184-126.us-west-2.compute.amazonaws.com 1 1 513 20230824190203
+ec2-54-186-197-47.us-west-2.compute.amazonaws.com 1 1 513 20230826193559
+138.91.24.255 2 2 1394 20230821065419
+5.133.192.197 1 1 513 20230817055901
+ec2-34-214-247-215.us-west-2.compute.amazonaws.com 1 1 513 20230831192519
+ec2-18-236-125-195.us-west-2.compute.amazonaws.com 1 1 513 20230807190945
+106.75.17.187 1 1 513 20230831205833
+berlin01.tor-exit.artikel10.org 1 1 697 20230817235634
+40.83.57.194 1 1 513 20230821130921
+vmi1321793.contaboserver.net 1 1 513 20230805074058
+52.232.70.158 1 1 513 20230816214052
+ec2-35-88-23-90.us-west-2.compute.amazonaws.com 1 1 513 20230824190347
+ec2-35-93-72-39.us-west-2.compute.amazonaws.com 1 1 513 20230805200352
+ec2-18-237-84-212.us-west-2.compute.amazonaws.com 1 1 513 20230813192608
+ec2-52-24-179-253.us-west-2.compute.amazonaws.com 1 1 513 20230806223130
+176.111.174.153 1 1 697 20230804053054
+ec2-52-200-154-115.compute-1.amazonaws.com 1 1 513 20230817114259
+bsn-95-245-159.static.siol.net 2 2 1026 20230818151322
+ec2-34-216-205-183.us-west-2.compute.amazonaws.com 1 1 513 20230816195110
+ec2-54-190-126-6.us-west-2.compute.amazonaws.com 1 1 513 20230819190123
+ec2-34-209-188-187.us-west-2.compute.amazonaws.com 1 1 513 20230814200517
+ec2-52-35-87-186.us-west-2.compute.amazonaws.com 1 1 513 20230812192937
+ec2-54-213-31-99.us-west-2.compute.amazonaws.com 1 1 513 20230820232108
+107.166.11.234 2 2 1026 20230818171159
+ec2-54-200-100-114.us-west-2.compute.amazonaws.com 1 1 513 20230815194127
+ec2-34-210-84-29.us-west-2.compute.amazonaws.com 1 1 513 20230804191323
+ec2-54-184-77-219.us-west-2.compute.amazonaws.com 1 1 513 20230805200316
+static.vnpt.vn 2 2 1394 20230820023236
+165.46.236.35.bc.googleusercontent.com 2 2 1026 20230817203920
+ec2-54-202-70-36.us-west-2.compute.amazonaws.com 1 1 513 20230826193629
+ec2-35-88-103-216.us-west-2.compute.amazonaws.com 1 1 513 20230826192156
+157.230.0.161 2 2 1394 20230819084000
+204.163.36.59.broad.dg.gd.dynamic.163data.com.cn 1 1 513 20230808173725
+ec2-34-211-153-170.us-west-2.compute.amazonaws.com 1 1 513 20230813192642
+vmi1317607.contaboserver.net 2 2 1394 20230812171707
+ec2-35-89-57-199.us-west-2.compute.amazonaws.com 1 1 513 20230831192513
+52.165.4.238 1 1 513 20230806054736
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20230801 22 40 422195 7
+20230802 9 9 9987 9
+20230803 4 4 2052 4
+20230804 10 11 13112 9
+20230805 15 15 118989 8
+20230806 6 6 3078 5
+20230807 6 6 3630 5
+20230808 6 6 2565 6
+20230809 7 7 3959 6
+20230810 14 15 13751 5
+20230811 5 5 2933 3
+20230812 7 7 3959 6
+20230813 16 16 9312 11
+20230814 13 13 8141 9
+20230815 3 3 1539 3
+20230816 7 7 3591 6
+20230817 14 14 8286 10
+20230818 29 71 611653 11
+20230819 13 13 7957 10
+20230820 5 5 2933 4
+20230821 10 10 6234 7
+20230822 10 10 7508 5
+20230823 7 7 4511 5
+20230824 18 18 30988 7
+20230825 8 8 6748 5
+20230826 7 7 3775 6
+20230827 4 4 2052 3
+20230828 56 58 76828 6
+20230829 10 10 7312 7
+20230830 7 7 3446 6
+20230831 4 4 2052 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 2
+0s-30s 188
+5mn-15mn 2
+15mn-30mn 2
+2mn-5mn 1
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/ 222 123939 183 183
+/mail/src/left_main.php 61 70226 1 7
+/mail/src/right_main.php 22 51907 0 1
+/ftp/ 16 101698 1 2
+/mail/src/webmail.php 16 9272 9 2
+/mail/src/read_body.php 6 115845 0 0
+/mail/src/compose.php 3 6235 0 0
+/mail/src/redirect.php 2 1884 2 1
+/jp/admin.cgi 2 11743 2 2
+/mail/src/view_text.php 1 1530 0 0
+/mail/src/login.php 1 1338 0 0
+END_SIDER
